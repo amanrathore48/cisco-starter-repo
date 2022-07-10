@@ -1,0 +1,24 @@
+.Banner {
+    font-weight: bold;
+    font-size: 1.75vw;
+    min-height: 60vh;
+    background: url('https://wallpaperaccess.com/full/210901.jpg');
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	border-radius: 0 0 85% 85% / 30%;
+}
+.Banner h1{
+    color: white;
+}
+.overlay{
+	width: 100vw;
+    min-height: 60vh;
+	padding: 50px  0;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    border-radius: 0 0 85% 85% / 30%;
+}
