@@ -20,7 +20,7 @@ function Address(props) {
         };
     
         fetchData();
-    }, []);
+    });
 
     return (
         <span className="Address">
