@@ -8,15 +8,20 @@ function App() {
   return (
     <div className="App">
       <Banner bannerText="SEXTANT" />
-      <Exhibit name="Public IPv4 Address">
-        <Address url='https://api.ipify.org?format=json' />
-      </Exhibit>
-      <Exhibit name="Public IPv4(v6) Address">
-        <Address url='https://api64.ipify.org?format=json' />
-      </Exhibit>
-      <Exhibit name="Latency">
-        <Pylon />
-      </Exhibit>
+      <div className="main-container">
+        <div className="cards">
+          <Exhibit name="Public IPv4 Address">
+            <Address url='https://api.ipify.org?format=json' />
+          </Exhibit>
+          <Exhibit name="Public IPv4(v6) Address">
+            <Address url='https://api64.ipify.org?format=json' />
+          </Exhibit>
+          <Exhibit name="Latency">
+            <Pylon />
+          </Exhibit>
+        </div>
+      </div>
+       
     </div>
   );
 }
